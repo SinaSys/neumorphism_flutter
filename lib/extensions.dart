@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 extension Neumorphism on Widget {
-  addLightNeumorphism({BoxShape shape = BoxShape.rectangle}) {
+  addDarkNeumorphism({BoxShape shape = BoxShape.rectangle}) {
 
     BorderRadiusGeometry? borderRadius = BorderRadius.circular(12);
 

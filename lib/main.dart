@@ -28,12 +28,12 @@ class MyHomePage extends StatelessWidget {
             height: 300,
             alignment: Alignment.center,
             child: Icon(Icons.car_repair,color: Colors.white,size: 150,),
-          ).addLightNeumorphism(),
+          ).addDarkNeumorphism(),
           SizedBox(height: 20),
           Container(
             width: 200,
             height: 200,
-          ).addLightNeumorphism(shape: BoxShape.circle)
+          ).addDarkNeumorphism(shape: BoxShape.circle)
         ],
       ),
     );
