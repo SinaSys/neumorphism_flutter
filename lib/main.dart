@@ -18,7 +18,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.grey[900],
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget {
             width: 250,
             height: 300,
             alignment: Alignment.center,
-            child: FlutterLogo(size: 150),
+            child: Icon(Icons.car_repair,color: Colors.white,size: 150,),
           ).addLightNeumorphism(),
           SizedBox(height: 20),
           Container(

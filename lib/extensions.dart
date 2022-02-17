@@ -10,17 +10,17 @@ extension Neumorphism on Widget {
 
     return Container(
       decoration: BoxDecoration(
-          color: Colors.grey[300],
+          color: Colors.grey[900],
           shape: shape,
           borderRadius: borderRadius,
           boxShadow: [
             BoxShadow(
-                color: Colors.grey.shade500,
-                offset: Offset(4, 4),
+                color: Colors.black,
+                offset: Offset(5, 5),
                 blurRadius: 15,
-                spreadRadius: 1),
+                spreadRadius: 5),
             BoxShadow(
-                color: Colors.white,
+                color: Colors.grey.shade800,
                 offset: Offset(-4, -4),
                 blurRadius: 15,
                 spreadRadius: 1)
